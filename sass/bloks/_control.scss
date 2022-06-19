@@ -1,0 +1,65 @@
+.control {
+	padding: 360px 0 239px 730px;
+	background-image: url('../images/runners1.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.control__inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.control__info {
+	max-width: 490px;
+	width: 100%;
+
+	// margin-right: 110px;
+}
+
+.control__title {
+	margin: 0;
+	margin-bottom: 30px;
+	padding: 0;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 120%;
+	color: #ffffff;
+}
+
+.control__text {
+	margin: 0;
+	margin-bottom: 40px;
+	padding: 0;
+	padding-left: 30px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #ffffff;
+	border-left: 3px solid #ffffff;
+}
+
+.control__btn {
+	display: inline-block;
+	padding: 12px 38.5px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #ea625c;
+}
+
+@media only screen and (max-width: 520px) {
+	.control {
+		padding: 96px 0 106px 0;
+		background-size: cover;
+	}
+
+	.control__info {
+		max-width: 100%;
+	}
+}
