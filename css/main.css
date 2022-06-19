@@ -561,6 +561,7 @@ img {
     padding: 440px 0 70px 0;
     background-size: 392px 378px;
     background-position: right -120px top 30px;
+    border: none;
   }
   .hero__info {
     max-width: 100%;
@@ -732,6 +733,7 @@ img {
 .brand__img {
   width: 400px;
   height: 600px;
+  border-radius: 8px;
 }
 
 @media only screen and (max-width: 520px) {
