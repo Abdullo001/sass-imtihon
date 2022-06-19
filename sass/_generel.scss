@@ -1,0 +1,20 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*,*::after,*::before{
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Arial',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    vertical-align: middle;
+    object-fit: cover;
+}
+
